@@ -1,30 +1,65 @@
-🤖 3D Portfolio
-The 3D Portfolio project is a highly engaging personal website that features animated 3D scenes, smooth camera transitions, interactive model showcases, and responsive design. It’s ideal for developers, designers, or freelancers looking to stand out in the digital crowd.
+# 🌐 3D Developer Portfolio
 
-⚙️ Tech Stack :-
-Three.js
-React Three Fiber
-Drei
-GSAP
-Tailwind CSS
-Vite
-React 19
-Docker
+A visually stunning and interactive developer portfolio built with cutting-edge 3D web technologies. This project showcases animated 3D scenes, smooth camera transitions, interactive model highlights, and responsive design — perfect for developers, designers, and freelancers who want to stand out.
 
-🔋 Features
-Features of the 3D Portfolio Project :-
-👉 Animated 3D models and reveal animations
+---
 
-👉 Realistic lighting and shadows
+## ⚙️ Tech Stack
 
-👉 GSAP-powered scroll interactions
+- Three.js
+- React Three Fiber
+- @react-three/drei
+- GSAP (GreenSock Animation Platform)
+- Tailwind CSS
+- Vite
+- React 19
+- Docker
 
-👉 Responsive design with Tailwind CSS and Flexbox/Grid
+---
 
-👉 Micro Interactions
+## 🔋 Features
 
-👉 Multi-section layout (About, Projects, Contact)
+- 🎬 Animated 3D models with smooth transitions
+- 💡 Realistic lighting and shadows
+- 📜 Scroll-triggered animations powered by GSAP
+- 📱 Responsive design with Tailwind CSS and Flexbox/Grid
+- 🌀 Micro-interactions for a dynamic user experience
+- 📂 Multi-section layout (About, Projects, Contact)
+- 📲 Mobile-optimized 3D experience
+- 🧩 Reusable component architecture
 
-👉 Mobile optimized 3D experience
+---
 
-and many more, including code architecture and reusability.
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/Shafeeque27/portfolio.git
+
+# Navigate to the project
+cd 3d-portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+```
+🐳 Docker Support
+This project is also fully Dockerized. You can build and run it using:
+
+```bash
+docker build -t 3d-portfolio .
+docker run -p 3000:3000 3d-portfolio
+```
+🌍 Live Demo
+🔗 https://shafeeque-portfolio-5gwhkjacf-shafeeque27s-projects.vercel.app/
+
+📬 Contact
+Feel free to connect with me:
+
+LinkedIn : https://www.linkedin.com/in/muhammed-shafeeque-k-13430b201
+
+Email : muhammedshafeequek27@gmail.com
+
