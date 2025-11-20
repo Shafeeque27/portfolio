@@ -54,7 +54,7 @@ docker build -t 3d-portfolio .
 docker run -p 3000:3000 3d-portfolio
 ```
 🌍 Live Demo
-🔗 https://shafeeque-portfolio-5gwhkjacf-shafeeque27s-projects.vercel.app/
+🔗 https://shafeeque-portfolio-git-main-shafeeque27s-projects.vercel.app/
 
 📬 Contact
 Feel free to connect with me:
