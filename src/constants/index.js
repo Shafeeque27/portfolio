@@ -152,7 +152,7 @@ const expCards = [
         imgPath: '/images/person.png',
         logoPath: '/images/person.png',
         title: 'Freelance Full Stack Developer',
-        date: 'September 2024 – Present',
+        date: 'September 2025 – Present',
         responsibilities: [
             'Delivered full-stack solutions to freelance clients using MERN and Golang.',
             'Built dashboards, portfolios, authentication systems, and more.',
@@ -165,9 +165,9 @@ const expCards = [
         imgPath: '/images/vonnue-logo.png',
         logoPath: '/images/vonnue-logo.png',
         title: 'MERN Stack Developer',
-        date: 'May 2024 – September 2024',
+        date: 'Apr 2025 – September 2025',
         responsibilities: [
-            'Developed full-stack web applications using MongoDB, Express, React, and Node.js.',
+            'Developed full-stack web applications using MongoDB, Express, React, Node.js and Golang.',
             'Created responsive UI components using React and Tailwind CSS.',
             'Integrated APIs and ensured seamless client-server communication.',
             'Collaborated in Agile environment with design and development teams.',
@@ -178,8 +178,8 @@ const expCards = [
         review: 'Shafeeque contributed across the stack with a strong focus on backend development using Golang. His ability to handle both frontend and backend tasks helped streamline development and deliver quality features.',
         imgPath: '/images/quest-logo.png',
         logoPath: '/images/quest-logo.png',
-        title: 'FullStack Developer Intern (Golang)',
-        date: 'May 2023 – November 2023',
+        title: 'FullStack Developer Intern (Java, Golang)',
+        date: 'May 2024 – November 2024',
         responsibilities: [
             'Developed full-stack web applications using Golang (backend) and HTML, CSS, JavaScript (frontend).',
             'Built RESTful APIs with Golang and integrated them with responsive UIs.',

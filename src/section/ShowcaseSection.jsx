@@ -12,11 +12,7 @@ const ShowcaseSection = () => {
     const project3Ref = useRef(null);
 
     useGSAP(() => {
-        const projects = [
-            project1Ref.current,
-            project2Ref.current,
-            project3Ref.current,
-        ];
+        const projects = [project1Ref.current, project2Ref.current, project3Ref.current];
 
         projects.forEach((project, index) => {
             gsap.fromTo(
@@ -38,67 +34,96 @@ const ShowcaseSection = () => {
             );
         });
 
-        gsap.fromTo(
-            sectionRef.current,
-            { opacity: 0 },
-            { opacity: 1, duration: 1.5 }
-        );
+        gsap.fromTo(sectionRef.current, { opacity: 0 }, { opacity: 1, duration: 1.5 });
     }, []);
 
     return (
-        <section
-            ref={sectionRef}
-            id="work"
-            className="scroll-mt-20 app-showcase">
+        <section ref={sectionRef} id="work" className="scroll-mt-20 app-showcase">
             <div className="w-full">
                 <div className="showcaselayout">
                     {/* LEFT */}
                     <div className="first-project-wrapper" ref={project1Ref}>
-                        <a
-                            href="https://shafeeque27.github.io/movie-explorer/"
-                            className="no-underline">
+                        <a href="https://doctor-appointment-booking-system-d.vercel.app/" className="no-underline">
+                            <div className="image-wrapper">
+                                <img src="images/doctorBooking.png" alt="Ryde" />
+                            </div>
+                        </a>
+                        <div className="text-content">
+                            <h2>🏥 Doctor Appointment Booking System – MERN Full-Stack Application</h2>
+                            <p className="text-white-50 md: text-xl">
+                                A full-stack MERN application that allows patients to browse doctors, check
+                                availability, book appointments, and make secure online payments. Doctors can manage
+                                schedules and appointments, while admins handle doctor approvals and monitor platform
+                                activity.
+                            </p>
+                            <p className="font-medium text-xl text-blue-600">
+                                <a href="https://github.com/Shafeeque27/Doctor-Appointment-Booking-System.git">
+                                    GitHubLink
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="first-project-wrapper" ref={project1Ref}>
+                        <a href="https://shafeeque27.github.io/movie-explorer/" className="no-underline">
                             <div className="image-wrapper">
                                 <img src="images/project1.png" alt="Ryde" />
                             </div>
                         </a>
                         <div className="text-content">
-                            <h2>
-                                Movie Explorer - Discover and Search Movies
-                                Instantly
-                            </h2>
+                            <h2>Movie Explorer - Discover and Search Movies Instantly</h2>
                             <p className="text-white-50 md: text-xl">
-                                Movie Explorer is a React-based web application
-                                that allows users to explore trending movies and
-                                search for their favorite films. Built using
-                                Vite, TailwindCSS, Appwrite, and TMDB API, this
-                                app provides a seamless and efficient movie
-                                discovery experience.
+                                Movie Explorer is a React-based web application that allows users to explore trending
+                                movies and search for their favorite films. Built using Vite, TailwindCSS, Appwrite, and
+                                TMDB API, this app provides a seamless and efficient movie discovery experience.
+                            </p>
+                            <p className="font-medium text-xl text-blue-600">
+                                <a href="https://github.com/Shafeeque27/movie-explorer.git">GitHubLink</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div className="first-project-wrapper" ref={project1Ref}>
+                        <a href="https://shafeeque27.github.io/movie-explorer/" className="no-underline">
+                            <div className="image-wrapper">
+                                <img src="images/todo.png" alt="Ryde" />
+                            </div>
+                        </a>
+                        <div className="text-content">
+                            <h2>Task Management Application</h2>
+                            <p className="text-white-50 md: text-xl">
+                                A modern full-stack Todo application built using React, Golang, TypeScript, MongoDB,
+                                Chakra UI, and TanStack Query. This project demonstrates full CRUD operations, API
+                                integration, caching, responsive UI, and modern deployment workflow.
+                            </p>
+                            <p className="font-medium text-xl text-blue-600">
+                                <a href="https://github.com/Shafeeque27/react-go-TodoApp.git">GitHubLink</a>
                             </p>
                         </div>
                     </div>
 
-                    {/* RIGHT */}
+                    {/* RIGHT
                     <div className="project-list-wrapper overflow-hidden">
                         <div className="project" ref={project2Ref}>
-                            <div className="image-wrapper bg-[#ffefdb]">
-                                <img
-                                    src="/images/project2.png"
-                                    alt="Library Management"
-                                />
-                            </div>
-                            <h2>Library Management Platform</h2>
+                            <a href="https://shafeeque27.github.io/movie-explorer/" className="no-underline">
+                                <div className="image-wrapper">
+                                    <img src="images/todo.png" alt="" />
+                                </div>
+                            </a>
+                            <h2>Task Management Application</h2>
+                            <p className="text-white sm:text-md">
+                                A modern full-stack Todo application built using React, Golang, TypeScript, MongoDB,
+                                Chakra UI, and TanStack Query. This project demonstrates full CRUD operations, API
+                                integration, caching, responsive UI, and modern deployment workflow.
+                            </p>
                         </div>
 
                         <div className="project" ref={project3Ref}>
                             <div className="image-wrapper bg-[#ffe7eb]">
-                                <img
-                                    src="/images/project3.png"
-                                    alt="YC Directory"
-                                />
+                                <img src="/images/project3.png" alt="YC Directory" />
                             </div>
                             <h2>YC Directory - A Startup Showcase App</h2>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>
